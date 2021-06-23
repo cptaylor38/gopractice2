@@ -71,6 +71,7 @@ func callRobots() {
 	defer res.Body.Close()
 	robots, err := ioutil.ReadAll(res.Body)
 	//Look up ioutil package
+	// https://golang.org/pkg/io/ioutil/#ReadAll
 	if err != nil {
 		log.Fatal(err)
 	}
