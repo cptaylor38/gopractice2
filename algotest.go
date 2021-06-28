@@ -26,7 +26,8 @@ func main() {
 	// to run Shape() func from other file, go must run with both files
 	// go run algotest.go interfaceExample.go
 	// GoRoutineMain()
-	ChannelsMain()
+	// ChannelsMain()
+	httpMain()
 }
 
 func fizzBuzz(num int) {
